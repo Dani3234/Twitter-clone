@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login__Container-header {
+    background: red;
+
+    height: 53px;
+    width: 600px;
+    margin: auto;
+}
+
+.login__Container {
+    background: white;
+
+    height: 583px;
+    width: 572px;
+
+    margin: 85px auto;
+}
+
+.login {
+    background: rgba(0,0,0,0.4);
+    height: 100vh;
+    width: 100%;
+}
