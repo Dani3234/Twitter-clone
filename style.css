@@ -4,50 +4,91 @@
     padding: 0;
 }
 
-.login {
-    background: rgb(0, 0, 0, 0.4);
-    height: 100%;
-    width: 100%;
-}
-
 .login__div {
-    background: white;
-    height: 383px;
-    width: 572px;
-    margin: 30px auto;
+    background: rgb(153 153 153);
+    height: 100vh;
+    width: 100%;
 
-    overflow-y: scroll;
-    overflow-x: hidden;
-    white-space: nowrap;
-
-    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.login__div-icon {
-    text-align: center;
+.login__div-header {
+    background: white;
+    height: 53px;
+    width: 600px;
+
+    margin-top: 2vw;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+
+
+    /* text-align: center;   */
+    /* position:relative; */
 }
 
 .login__div-icon-cross {
-    height: 12px;
-    width: 12px;
+    background: red;
+    /* medidas de la x inicial
 
-    position: relative;
+     height: 12px;
+    width: 12px; */
+
+    height: 50px;
+    width: 50px; 
+
+    position: absolute;
+    left: 20px;
+    border-radius: 50%;
 }
 
-.login__div-icon-bird { 
-    height: 35px;
-    width: 32px;
+.login__div-icon-bird {
+    background: red; 
+    height: 30.5px;
+    width: 30px;
+    /* margin-inline-start: auto; */
 
-    margin-top: 5px;
+    position: absolute;
+    /* right: 1px;  */
+
 }
 
-.login__div-structure { 
-    background: whitesmoke;
-    height:  572px;
-    width: 364px;
-    margin: 65px auto;
+
+.login__div-content { 
+    background: white;
+    height:  510px;
+    width: 600px;
+
+    margin-bottom: 2vw;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow-y: scroll;
+
 }
 
 .h1 {
     font-size: 31px;
+}
+
+button {
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+    border:none; 
+    background: white;
+}
+
+button:hover {
+    background: grey;
 }

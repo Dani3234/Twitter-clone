@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padre {
+    background: rgb(153 153 153);
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hijo1 {
+    background: white;
+    height: 50px;
+    width: 600px;
+    border: solid 1px black;    
+    margin-top: 2vw;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.hijo2 {
+    background: white;
+    height: 500px;
+    width: 600px;
+    border: solid 1px black;
+    margin-bottom: 2vw;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow-y: scroll;
+    
+}
